@@ -1,7 +1,8 @@
 # cFS_SpacePkts
 Quick and dirty way to send/recv CCSDS space packets using cFS  api extracts
 
-All credit for NASA's Core Flight System or cFS, goes to NASA.
+All credit for NASA's Core Flight System or cFS, goes to NASA:
+https://github.com/nasa/cFS
 
 I extracted code from cFS, then wrote spacepktSEND.c and spacepktRECV.c
 
@@ -15,8 +16,8 @@ data length, can take that many bytes backwards ie starting from the back of the
 received array of bytes and that will be your message in reverse order. No need to
 skip the secondary header that way.
 
-Note that this is old cFS. Old cFS is the pain to work with. The new has an improved
-API that makes this kind of thing way easier.
+Note that this is old cFS. Old cFS is a bit of a pain to work with. The current has an
+improved API that makes this way easier.
 
 Run like this:
 
