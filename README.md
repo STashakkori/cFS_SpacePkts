@@ -10,10 +10,10 @@ The Makefiles are Mike Crawford's Generic Makefile for speed
 This tool is a nice way if you simply want to send and receive from cFS like a
 ground system would or to reverse packets for fun.
 
-However, once you receive a packet, deserialize the primary header, and get the
-data length, you can take that many bytes backwards ie starting from the back of
-the received array of bytes and that will be your message in reverse order. No need
-to skip the secondary header that way.
+A tip is that once you receive a packet, deserialize the primary header, and get the
+data length, can take that many bytes backwards ie starting from the back of the 
+received array of bytes and that will be your message in reverse order. No need to
+skip the secondary header that way.
 
 Note that this is old cFS. Old cFS is the pain to work with. The new has an improved
 API that makes this kind of thing way easier.
