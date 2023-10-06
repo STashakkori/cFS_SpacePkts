@@ -8,8 +8,7 @@ I extracted code from cFS, then wrote spacepktSEND.c and spacepktRECV.c
 The Makefiles are Mike Crawford's Generic Makefile for speed
 
 This tool is a nice way if you simply want to send and receive from cFS like a
-ground system would or to reverse packets. Keep in mind though that deserializing
-packets requires knowing their structure.
+ground system would or to reverse packets for fun.
 
 However, once you receive a packet, deserialize the primary header, and get the
 data length, you can take that many bytes backwards ie starting from the back of
