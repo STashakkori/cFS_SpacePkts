@@ -18,3 +18,10 @@ to skip the secondary header that way.
 
 Note that this is old cFS. Old cFS is the pain to work with. The new has an improved
 API that makes this kind of thing way easier.
+
+Run like this:
+
+./send <port>
+./recv <ip_addr> <port>
+
+Data is set in the structs in send. Sky is the limit
