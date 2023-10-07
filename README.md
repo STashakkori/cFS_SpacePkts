@@ -21,8 +21,8 @@ improved API that makes this way easier.
 
 Run like this:
 
-./send <port>
+./send port_number
 
-./recv <ip_addr> <port>
+./recv ip_addr port_number
 
 Data is set in the structs in send. Sky is the limit
